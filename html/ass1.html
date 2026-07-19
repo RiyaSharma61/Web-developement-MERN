@@ -1,0 +1,138 @@
+<!--assignment of 3rd HTML , ques1.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3rd HTML</title>
+</head>
+<body>
+    <table border="black">
+        <caption>
+            Student Information
+        </caption>
+        
+            <tr>
+                <th rowspan="6">Info</th>
+                <th rowspan="2">Name</th>
+                <th colspan="2">Address</th>
+            </tr>
+            <tr>
+                <th>City</th>
+                <th>House</th>
+            </tr>
+        
+            <tr>
+                <td>A</td>
+                <td>delhi</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>B</td>
+                <td>Mumbai</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>C</td>
+                <td>kolkata</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>D</td>
+                <td>Pune</td>
+                <td>4</td>
+            </tr>
+        
+    </table>
+
+    <hr/>
+
+    <!-- making the form of assignment 3 of HTML -->
+
+    <form action="/server">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div>
+            Sex:
+            <input type="radio" name="sex" id="male" value="male">
+            <label for="male"> Male</label>
+            <input type="radio" name="sex" id="female" value="female">
+            <label for="female"> Female</label>
+        </div>
+        <div>
+            Country:
+            <select name="country" id="country">
+                <option value="india">India</option>
+                <option value="japan">Japan</option>
+                <option value="france">France</option>
+                <option value="uk">UK</option>
+            </select>
+        </div>
+        <div>
+            <label for="message">Message:</label>
+            <div>
+                <textarea name="mess" id="message"></textarea>
+
+            </div>
+        </div>
+        <div>
+            <input type="checkbox" id="subs" name="subscribe" value="checkedSubs">
+            <label for="subs">Subscribe?</label>   
+        </div>
+        
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+
+    <!-- 3rd form of assignment -->
+    <hr/>
+    <form action="/server">
+        <h2>Feedback Form</h2>
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="write your name">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="text" placeholder="write your email">
+
+        </div>
+        <div>
+            <label for="mess">Message:</label>
+            <div>
+                <textarea name="message"></textarea>
+            </div>
+        </div>
+        <div>
+            Rate us out of 5:
+            <div>
+                <input type="radio" value="1" id="1st" name="rating">
+                <label for="1st">1</label>
+            </div>
+            <div>
+                <input type="radio" value="2" id="2nd" name="rating">
+                <label for="2nd">2</label>
+            </div>
+            <div>
+                <input type="radio" value="3" id="3rd" name="rating">
+                <label for="3rd">3</label>
+            </div>
+            <div>
+                <input type="radio" value="4" id="4th" name="rating">
+                <label for="4th">4</label>
+            </div>
+            <div>
+                <input type="radio" value="5" id="5th" name="rating">
+                <label for="5th">5</label>
+            </div>
+        </div>
+        <div>
+            <button type="submit">Send Your Message!</button>
+        </div>
+    </form>
+</body>
+</html>
