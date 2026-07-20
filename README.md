@@ -82,6 +82,6 @@ web-development-MERN
 
 ⭐ If you find this repository useful, feel free to explore it!
 
-Made with ❤️ by **Riya **
+Made with ❤️ by **Riya**
 
 </div>
