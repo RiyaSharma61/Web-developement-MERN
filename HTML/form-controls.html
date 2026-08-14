@@ -1,0 +1,67 @@
+<!--checkbox and radio button in form-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox&Radio</title>
+</head>
+<body>
+    <form action="/action">
+        <div>
+            choose Your subjects:
+            <input type="checkbox" id="eng" name="sub" value="eng">
+            <label for="eng">English</label>
+
+            <input type="checkbox" id="math" name="sub" value="eng">
+            <label for="math">Maths</label>
+
+            <input type="checkbox" id="science" name="sub" value="sci">
+            <label for="science">Science</label>
+        </div>
+
+        <hr/>
+        <div>
+            Choose your gender:
+            <!--section for radio buttons and selecting gender-->
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+
+            <input type="radio" name="gender" id="others" value="others">
+            <label for="others">Others</label>
+
+        </div>
+
+        <hr>
+        <div>
+            <!--select from dropdown list-->
+            Choose you city:
+            <select name="city" id="chooseCity">
+                <option value="select">Select your city</option>
+                <option value="dehradun">Dehradun</option>
+                <option value="Delhi">Delhi</option>
+                <option value="mumbai">Mumbai</option>
+            </select>
+        </div>
+
+        <hr>
+        <div>
+            <!--audio and vloume range-->
+            <label for="vol">Select volume:</label>
+            <input type="range" min="0" max="100" name="vol" id="vol" step="10">
+        </div>
+
+        <hr>
+        <label for="feed">Give your valuable feedback:</label>
+        <textarea id="feed" name="feedback" placeholder="write your feedback,"></textarea>
+
+        <button>Submit</button>
+        <button type="reset">Reset</button>
+
+
+    </form>
+</body>
+</html>
