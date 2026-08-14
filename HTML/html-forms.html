@@ -1,0 +1,53 @@
+<!-- form making  -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form making</title>
+ </head>
+ <body>
+    <form action="/server"> <!--just adding a action to performed after submission of from-->
+        <div>
+            <label for="username">Enter Username:</label>
+            <input type="text" id="username" placeholder="Username" name="user"/>
+
+        </div>
+        <div>
+            <label for="password">
+                Enter Password:
+            </label>
+            <input type="password" id="password" placeholder="password" name="pass">
+
+        </div>
+        <div>
+            <label for="age">Enter Age:</label>
+            <input type="number" id="age" placeholder="age" name="age">
+        </div>
+        <div>
+            <label for="dob">Enter DOB:</label>
+            <input type="date" id="dob" placeholder="Date of Birth" name="dob">
+        </div>
+
+        <!--button in html for form-->
+        <button>Submit</button>
+        <!--button't types -->
+        <button type="reset">reset</button>
+        <button type="button">not button</button>
+        <button type="submit">submitttf</button>
+    </form>
+    <hr/>
+    <!--here i am make a search box that searches for youtube-->
+    <form action="https://www.youtube.com/results">
+        <input type="text" placeholder="serach in youtube" name="search_query">
+        <button>submit</button>
+    </form>
+    <hr/>
+    <!--PRACTICE Qs-->
+    <form action="https://www.google.com/search">
+        <input type="text" placeholder="Search in Google" name="q">
+        <button>Submit</button>
+
+    </form>
+ </body>
+ </html>
